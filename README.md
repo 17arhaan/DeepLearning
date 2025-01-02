@@ -1,5 +1,8 @@
 
-# **Deep Learning** 🌟  
+<div align="center"> 
+  # **Deep Learning**
+</div>
+
 
 <div align="center">
   <img src="https://miro.medium.com/v2/resize:fit:1400/1*BIpRgx5FsEMhr1k2EqBKFg.gif" alt="Deep Learning GIF" width="600">
