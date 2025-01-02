@@ -2,7 +2,7 @@
 # **Deep Learning** 🌟  
 
 <div align="center">
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40p._.%2Fneural-nets-299072b6e45f&psig=AOvVaw32Btvnnbxt7plDHls2dyXS&ust=1735935082725000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJDN06Hs14oDFQAAAAAdAAAAABAE" alt="Deep Learning GIF" width="600">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*BIpRgx5FsEMhr1k2EqBKFg.gif" alt="Deep Learning GIF" width="600">
 </div>
 
 This repository is a comprehensive collection of **Deep Learning** projects, implementations, and experiments. It serves as a practical demonstration of how deep learning can solve real-world problems while being a valuable learning resource for enthusiasts and developers alike.
