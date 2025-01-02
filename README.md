@@ -2,6 +2,8 @@
 
 # Deep Learning 
 
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40p._.%2Fneural-nets-299072b6e45f&psig=AOvVaw32Btvnnbxt7plDHls2dyXS&ust=1735935082725000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJDN06Hs14oDFQAAAAAdAAAAABAE
+
 This repository contains a collection of **Deep Learning** projects, implementations, and experiments. It is designed to demonstrate and explore the power of deep learning in solving real-world problems, as well as to serve as a resource for learning and development.
 
 ### **Contents**
