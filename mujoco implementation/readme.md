@@ -3,7 +3,7 @@
 This repository contains a basic humanoid simulation using MuJoCo's Python bindings. The work presented here is dedicated to research in assistive motion—aimed at stimulating movement and improving mobility in individuals with disabilities. The simulation provides a starting framework for exploring gait control and other assistive strategies in a virtual environment.
 
 ## Repository Structure
-
+  ```
 17arhaan/
 └── DeepLearning/
 └── mujoco implementation/
@@ -11,30 +11,26 @@ This repository contains a basic humanoid simulation using MuJoCo's Python bindi
 ├── view.py             # Simulation and visualization script
 ├── LICENSE             # MIT License file
 └── README.md           # This file
+  ```
 
 ## Requirements
 
 - **Python 3.x**
 - **MuJoCo Engine and Python Bindings**  
-  Install via:
-  ```bash
+  ```
   pip install mujoco
-
-	•	NumPy
-Install via:
-
+  ```
+-	**NumPy**
+  ```
 pip install numpy
-
-
-
+  ```
 Usage
 	1.	Ensure that the humanoid.xml file is located in the same directory as view.py.
 	2.	Run the simulation with:
-
 python view.py
 
 
-	3.	A viewer window will open, displaying the humanoid model. The simulation applies periodic control inputs to emulate a rudimentary walking motion—a basis for research in assistive motion for individuals with disabilities.
+A viewer window will open, displaying the humanoid model. The simulation applies periodic control inputs to emulate a rudimentary walking motion—a basis for research in assistive motion for individuals with disabilities.
 
 Code Overview
 	•	view.py
