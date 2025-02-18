@@ -14,12 +14,9 @@ This repository contains a basic humanoid simulation using MuJoCo's Python bindi
   ```
 
 ## Requirements
-- **MuJoCo Engine and Python Bindings**  
   ```
+	python3
 	pip install mujoco
-  ```
--	**NumPy**
-  ```
 	pip install numpy
   ```
 Usage
