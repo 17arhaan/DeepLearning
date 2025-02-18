@@ -14,15 +14,13 @@ This repository contains a basic humanoid simulation using MuJoCo's Python bindi
   ```
 
 ## Requirements
-
-- **Python 3.x**
 - **MuJoCo Engine and Python Bindings**  
   ```
   pip install mujoco
   ```
 -	**NumPy**
   ```
-pip install numpy
+	pip install numpy
   ```
 Usage
 	1.	Ensure that the humanoid.xml file is located in the same directory as view.py.
