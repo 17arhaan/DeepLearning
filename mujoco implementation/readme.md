@@ -1,49 +1,73 @@
 # Assistive Motion Simulation Using MuJoCo
 
-This repository contains a basic humanoid simulation using MuJoCo's Python bindings. The work presented here is dedicated to research in assistive motion—aimed at stimulating movement and improving mobility in individuals with disabilities. The simulation provides a starting framework for exploring gait control and other assistive strategies in a virtual environment.
+This repository contains a basic humanoid simulation using MuJoCo's Python bindings. The project is dedicated to research in assistive motion, aimed at enhancing mobility for individuals with disabilities. This simulation provides a foundational framework for exploring gait control and developing assistive strategies in a virtual environment.
 
 ## Repository Structure
-  ```
+
+```
 17arhaan/
-└── DeepLearning/
-└── mujoco implementation/
-├── humanoid.xml        # MuJoCo humanoid model file
-├── view.py             # Simulation and visualization script
-├── LICENSE             # MIT License file
-└── README.md           # This file
-  ```
+├── DeepLearning/
+├── mujoco_implementation/
+│   ├── humanoid.xml        # MuJoCo humanoid model file
+│   ├── view.py             # Simulation and visualization script
+│   ├── LICENSE             # MIT License file
+│   ├── README.md           # This file
+```
 
 ## Requirements
-  ```
-	python3
-	pip install mujoco
-	pip install numpy
-  ```
-Usage
-	1.	Ensure that the humanoid.xml file is located in the same directory as view.py.
-	2.	Run the simulation with:
-python view.py
 
+Ensure you have Python 3 installed, then install dependencies using:
 
-A viewer window will open, displaying the humanoid model. The simulation applies periodic control inputs to emulate a rudimentary walking motion—a basis for research in assistive motion for individuals with disabilities.
+```sh
+pip install mujoco numpy
+```
 
-Code Overview
-	•	view.py
-	•	Loads the humanoid model and initializes the simulation state.
-	•	Sets up a real-time viewer to visualize the simulation.
-	•	Applies simple periodic control signals (sine waves) to selected actuators to stimulate walking-like motion.
-	•	Serves as a preliminary framework for exploring and developing advanced assistive motion controllers.
+## Usage
 
-Customization
-	•	Actuator Indices:
-Adjust the actuator indices in view.py (e.g., left_hip and right_hip) to match your model’s configuration.
-	•	Control Parameters:
-Modify the frequency, amplitude, and phase offsets of the control signals to fine-tune the gait or explore other motion patterns.
+1. Ensure that `humanoid.xml` is located in the same directory as `view.py`.
+2. Run the simulation with:
 
-Acknowledgments
+   ```sh
+   python view.py
+   ```
 
-This project is committed to advancing research in assistive technology for individuals with disabilities. Your feedback and contributions are welcome as we refine this framework to better support mobility and rehabilitation research.
+A viewer window will open, displaying the humanoid model. The simulation applies periodic control inputs to emulate rudimentary walking motion—a basis for research in assistive mobility.
 
-License
+## Code Overview
 
-This project is licensed under the MIT License.
+### `view.py`
+
+- Loads the humanoid model and initializes the simulation state.
+- Sets up a real-time viewer to visualize the simulation.
+- Applies simple periodic control signals (sine waves) to selected actuators to stimulate walking-like motion.
+- Serves as a preliminary framework for developing advanced assistive motion controllers.
+
+## Customization
+
+### Actuator Indices
+Modify actuator indices in `view.py` to match your model’s configuration. Example:
+
+```python
+left_hip = 0
+right_hip = 1
+```
+
+### Control Parameters
+Fine-tune gait patterns by adjusting frequency, amplitude, and phase offsets:
+
+```python
+amplitude = 0.5  # Adjust step height
+frequency = 2.0  # Adjust walking speed
+phase_offset = 0.0  # Synchronization of movements
+```
+
+Experimenting with these values can help simulate different walking styles or rehabilitation strategies.
+
+## Acknowledgments
+
+This project is committed to advancing research in assistive technology for individuals with disabilities. Contributions and feedback are welcome to improve this framework and better support mobility and rehabilitation research.
+
+## License
+
+This project is licensed under the MIT License. See `LICENSE` for details.
+
