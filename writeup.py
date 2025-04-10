@@ -14,6 +14,7 @@ class TextDataset(Dataset):
 
 dataset = TextDataset(X, Y)
 loader = DataLoader(dataset, batch_size=64, shuffle=True)
+
 class LSTMModel(nn.Module):
     def __init__(self, vocab_size, embed_size=16, hidden_size=64):
         super(LSTMModel, self).__init__()
